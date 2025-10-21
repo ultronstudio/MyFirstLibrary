@@ -1,0 +1,35 @@
+{
+    "name": "MyFirstLibrary",
+    "version": "1.0.0",
+    "description": "Jednoduchá demonstrační knihovna pro Arduino s příkladem funkce a dokumentací.",
+    "keywords": [
+        "demo",
+        "arduino",
+        "library",
+        "example",
+        "tutorial"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ultron01/MyFirstLibrary.git"
+    },
+    "authors": [
+        {
+            "name": "Petr Vurm",
+            "email": "kontakt@petrvurm.cz",
+            "url": "https://petrvurm.cz",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://petrvurm.cz",
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "*"
+    ],
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
