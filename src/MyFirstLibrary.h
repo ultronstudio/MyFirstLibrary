@@ -1,10 +1,10 @@
 #pragma once
 /**
  * @file MyFirstLibrary.h
- * @brief Hlavičkový soubor ukázkové knihovny pro Arduino.
+ * @brief Header file of the example Arduino library.
  * 
- * Tato knihovna demonstruje základní strukturu Arduino knihovny,
- * včetně dokumentace a implementace jednoduché funkce.
+ * This library demonstrates the basic structure of an Arduino library,
+ * including documentation and the implementation of a simple function.
  * 
  * @author Petr Vurm
  * @version 1.0.0
@@ -14,28 +14,30 @@
  * Copyright (c) 2025 Petr Vurm
  * All rights reserved.
  */
+
 class MyFirstLibrary {
 public:
   /**
-   * @brief Spočítá součet dvou čísel.
+   * @brief Calculates the sum of two numbers.
    *
-   * Tato funkce vrací součet dvou celočíselných hodnot.
-   * Slouží pouze pro demonstrační účely — v reálné knihovně
-   * by zde byly pokročilejší funkce, senzory, atd.
+   * This function returns the sum of two integer values.
+   * It serves purely as a demonstration — a real library would include
+   * more advanced functionality, such as sensor control or data processing.
    *
-   * @param a První číslo.
-   * @param b Druhé číslo.
-   * @return int Součet obou čísel (a + b).
+   * @param a The first number.
+   * @param b The second number.
+   * @return int The sum of both numbers (a + b).
    */
   static int add(int a, int b);
 
   /**
-   * @brief Vrátí uvítací text knihovny.
+   * @brief Returns a greeting text from the library.
    *
-   * Slouží jako testovací metoda, kterou lze vypsat
-   * přes Serial monitor pro ověření, že knihovna funguje.
+   * This function can be used as a simple test method,
+   * for example printing it through the Serial monitor
+   * to verify that the library is working correctly.
    *
-   * @return const char* Text s názvem knihovny a verzí.
+   * @return const char* A text string containing the library name and version.
    */
   static const char* info();
 };

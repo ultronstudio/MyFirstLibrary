@@ -1,9 +1,9 @@
 /**
  * @file MyFirstLibrary.cpp
- * @brief Implementace ukázkové knihovny pro Arduino.
+ * @brief Implementation of the example Arduino library.
  * 
- * Knihovna MyFirstLibrary ukazuje, jak vytvořit vlastní třídu,
- * přidat metody, dokumentaci a základní popis funkcí.
+ * The MyFirstLibrary demonstrates how to create a custom class,
+ * add methods, write documentation, and provide basic function descriptions.
  */
 
  #include "MyFirstLibrary.h"
@@ -13,6 +13,6 @@
  }
  
  const char* MyFirstLibrary::info() {
-   return "MyFirstLibrary v1.0.0 — by Petr Vurm";
+   return "MyFirstLibrary v1.0.1 — by Petr Vurm";
  }
  

@@ -1,11 +1,11 @@
 /**
  * @file Minimal.ino
- * @brief Ukázkový příklad použití knihovny MyFirstLibrary.
+ * @brief Example sketch demonstrating the usage of the MyFirstLibrary.
  * 
- * Tento příklad demonstruje základní použití knihovny:
- *  - Načtení hlavičkového souboru knihovny.
- *  - Vypsání informací o knihovně do Serial monitoru.
- *  - Použití jednoduché funkce add() pro výpočet součtu dvou čísel.
+ * This example shows the basic usage of the library:
+ *  - Including the library header file.
+ *  - Printing library information to the Serial Monitor.
+ *  - Using the simple add() function to calculate the sum of two numbers.
  * 
  * @author Petr Vurm
  * @version 1.0.0
@@ -14,24 +14,24 @@
 
  #include <Arduino.h>
  #include <MyFirstLibrary.h>
-
+ 
  void setup() {
-   // Inicializace sériové komunikace
+   // Initialize serial communication
    Serial.begin(9600);
    while (!Serial) {
-     ; // čekej, dokud se Serial nepřipojí (užitečné např. pro Leonardo)
+     ; // wait for Serial to be ready (useful for boards like Leonardo)
    }
  
-   // Uvítací zpráva z knihovny
+   // Greeting message from the library
    Serial.println("=== MyFirstLibrary Example ===");
    Serial.println(MyFirstLibrary::info());
  
-   // Použití funkce add()
+   // Using the add() function
    int a = 5;
    int b = 7;
    int result = MyFirstLibrary::add(a, b);
  
-   Serial.print("Součet ");
+   Serial.print("Sum of ");
    Serial.print(a);
    Serial.print(" + ");
    Serial.print(b);
@@ -42,6 +42,6 @@
  }
  
  void loop() {
-   // Není potřeba dělat nic dalšího
+   // Nothing else to do here
  }
  

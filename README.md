@@ -1,18 +1,19 @@
 # MyFirstLibrary
 
-Jednoduchá demonstrační knihovna pro Arduino, vytvořená jako ukázka správné struktury, dokumentace a metadat.
+A simple demonstration library for Arduino, created as an example of proper structure, documentation, and metadata for Arduino/PlatformIO libraries.
 
-## 🧩 Funkce
+## 🧩 Functions
 
-| Funkce | Popis |
-|---------|--------|
-| `int add(int a, int b)` | Vrací součet dvou čísel. |
-| `const char* info()` | Vrací text s názvem a verzí knihovny. |
+| Function                | Description                                                    |
+| ----------------------- | -------------------------------------------------------------- |
+| `int add(int a, int b)` | Returns the sum of two numbers.                                |
+| `const char* info()`    | Returns a text string containing the library name and version. |
 
-## Instalace
+## Installation
 
-1. V **Arudino IDE** přidej knihovnu do projektu jako **ZIP soubor**.
-2. Ve svém projektu použij např:
+1. In **Arduino IDE**, add the library to your project as a **ZIP file**.
+2. In your sketch, use it like this:
+
 ```cpp
 #include <MyFirstLibrary.h>
 
@@ -25,14 +26,16 @@ void setup() {
 void loop() {}
 ```
 
-## ✍️ Autor
+## ✍️ Author
 
-* Jméno: Petr Vurm
-* Web: https://petrvurm.cz
-* Email: kontakt@petrvurm.cz
+* **Name:** Petr Vurm
+* **Website:** [https://petrvurm.cz](https://petrvurm.cz)
+* **Email:** [kontakt@petrvurm.cz](mailto:kontakt@petrvurm.cz)
 
-## ⚖️ Licence
+## ⚖️ License
 
-Tato ukázková knihovna je licencována pod licencí MIT. Více informací naleznete v souboru [LICENSE](./LICENSE.txt).
+This demonstration library is licensed under the **MIT License**.
+For more details, see the [LICENSE](./LICENSE.txt) file.
 
-Knihovna slouží pro demonstrační a vzdělávací účely. Je povoleno její volné použití, úpravy a distribuce dle podmínek licence MIT.
+The library is intended for **demonstration and educational purposes**.
+Free use, modification, and distribution are permitted under the terms of the MIT License.

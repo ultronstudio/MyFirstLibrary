@@ -1,7 +1,7 @@
 {
     "name": "MyFirstLibrary",
-    "version": "1.0.0",
-    "description": "Jednoduchá demonstrační knihovna pro Arduino s příkladem funkce a dokumentací.",
+    "version": "1.0.1",
+    "description": "A simple demonstration library for Arduino with an example function and documentation.",
     "keywords": [
         "demo",
         "arduino",
